@@ -26,7 +26,7 @@ app.use(express.static('public'));
 app.use('/api/usuarios', usuarios);
 
 
-// ********** Configuración de entornos **********//
+// *********** Configuración de entornos ***********//
 
 console.log('Aplicación: ' + config.get('nombre'));
 console.log('BD Server: ' + config.get('configDB.host'));
